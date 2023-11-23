@@ -79,7 +79,7 @@ body {
     width: 148px;
     height: 104px;
     flex-shrink: 0;
-    background-image: url(./images/logo-black.svg);
+    background-image: url(/images/logo-black.svg);
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: -10px;
@@ -126,7 +126,7 @@ body {
     background: black;
     gap: 85px;
     z-index: -1;
-    background-image: url(./images/cover.jpg);
+    background-image: url(/images/cover.jpg);
     background-size: cover;
 
 
@@ -428,7 +428,7 @@ h2 {
     width: 148px;
     height: 114px;
     flex-shrink: 0;
-    background-image: url(./images/logo-white.svg);
+    background-image: url(/images/logo-white.svg);
     background-size: cover;
     background-repeat: none;
 
@@ -578,15 +578,15 @@ footer {
 }
 
 .footer-socials-link-vk {
-    background-image: url(./images/vk.svg);
+    background-image: url(/images/vk.svg);
 }
 
 .footer-socials-link-yt {
-    background-image: url(./images/yt.svg);
+    background-image: url(/images/yt.svg);
 }
 
 .footer-socials-link-pinterest {
-    background-image: url(./images/pinterest.svg);
+    background-image: url(/images/pinterest.svg);
 }
 
 .pixel-perfect-image {
