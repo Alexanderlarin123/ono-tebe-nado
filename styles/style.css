@@ -10,13 +10,15 @@ body {
     color: black;
 
 }
+
 .main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 
 }
+
 .header {
     width: 1440px;
     height: 293px;
