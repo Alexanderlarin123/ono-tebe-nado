@@ -249,6 +249,9 @@ body {
 }
 
 .cover-undertitle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 257px;
     height: 52px;
     flex-shrink: 0;
@@ -266,6 +269,8 @@ body {
     line-height: normal;
     text-transform: uppercase;
     text-decoration: none;
+    background: none;
+    border: none;
 }
 
 .lots {
