@@ -359,7 +359,7 @@ h2 {
 }
 
 .lots-cards-card-title {
-    width: 350px;
+    width: 360px;
     color: #FFF;
     font-family: Raleway;
     font-size: 22px;
@@ -531,6 +531,7 @@ footer {
     width: 180px;
     height: 64px;
     flex-shrink: 0;
+    margin-left: 5px;
 
 }
 
@@ -540,6 +541,7 @@ footer {
     flex-direction: column;
     justify-content: start;
     align-items: center
+
 }
 
 .footer-list-item {
