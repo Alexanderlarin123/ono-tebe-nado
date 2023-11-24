@@ -58,13 +58,14 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 10px;
     list-style: circle;
+    text-underline-offset: 4px;
 }
 
 .header-menu-list-item-link {
     color: #000;
-}
+}   
 
 .header-menu-list-item-selected {
     color: #000;
@@ -72,19 +73,21 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 10px;
     list-style: none;
-    text-decoration: none;
+    text-underline-offset: 4px;
 }
-
+.header-menu-list-item-link-selected {
+    color: #000;
+    text-decoration: none;
+} 
 .header-logo {
     width: 148px;
     height: 104px;
     flex-shrink: 0;
-    background-image: url(/images/logo-black.svg);
+    
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: -10px;
 }
 
 .header-contacts {
@@ -115,6 +118,7 @@ body {
     font-weight: 400;
     list-style: none;
     line-height: 24px;
+    text-underline-offset: 4px;
 
 }
 
@@ -386,8 +390,9 @@ h2 {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 23.48px;
     text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 .about {
@@ -430,10 +435,7 @@ h2 {
     width: 148px;
     height: 114px;
     flex-shrink: 0;
-    background-image: url(/images/logo-white.svg);
-    background-size: cover;
-    background-repeat: none;
-
+    
 
 
 }
@@ -469,7 +471,7 @@ h2 {
     flex-direction: column;
     justify-content: start;
     align-items: stretch;
-    gap: 35px;
+    gap: 25px;
     width: 885px;
     height: 240px;
     flex-shrink: 0;
@@ -481,7 +483,8 @@ h2 {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 24px;
+
 }
 
 
@@ -593,6 +596,8 @@ footer {
 
 .pixel-perfect-image {
     position: fixed;
+    width: 1440px;
+    height: auto;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
