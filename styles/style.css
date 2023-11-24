@@ -122,6 +122,17 @@ body {
 
 }
 
+.header-contacts-list-item-link {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    list-style: none;
+    line-height: 24px;
+    text-underline-offset: 4px;
+}
+
 .cover {
     display: flex;
     flex-direction: column;
@@ -505,7 +516,7 @@ footer {
 }
 
 .footer-contacts {
-    width: 240px;
+    width: 250px;
     height: 97px;
     flex-shrink: 0;
 }
@@ -517,7 +528,7 @@ footer {
 }
 
 .footer-menu {
-    width: 149px;
+    width: 180px;
     height: 64px;
     flex-shrink: 0;
 
@@ -538,6 +549,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 24.3px;
+    text-underline-offset: 4px;
     /* 135% */
 }
 
@@ -548,6 +560,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 24.3px;
+    text-underline-offset: 4px;
     /* 135% */
 }
 
@@ -564,6 +577,7 @@ footer {
 
 .footer-list-item-link-selected {
     text-decoration: none;
+    text-underline-offset: 4px;
 }
 
 .footer-socials {
