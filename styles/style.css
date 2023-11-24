@@ -548,7 +548,7 @@ footer {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24.3px;
+    line-height: 21px;
     text-underline-offset: 4px;
     /* 135% */
 }
@@ -559,7 +559,7 @@ footer {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24.3px;
+    line-height: 21px;
     text-underline-offset: 4px;
     /* 135% */
 }
@@ -569,7 +569,7 @@ footer {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
-    line-height: 24.3px;
+    line-height: 21px;
     /* 135% */
     text-decoration: none;
 
@@ -578,6 +578,7 @@ footer {
 .footer-list-item-link-selected {
     text-decoration: none;
     text-underline-offset: 4px;
+    line-height: 21px;
 }
 
 .footer-socials {
