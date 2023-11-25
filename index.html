@@ -15,8 +15,8 @@
   <header class="header">
     <nav class="header-menu">
       <ul class="header-menu-list">
-        <li class="header-menu-list-item-selected">
-          <a class="header-menu-list-item-link-selected" href="#0">
+        <li class="header-menu-list-item header-menu-list-item-selected">
+          <a class="header-menu-list-item-link header-menu-list-item-link-selected" href="#0">
             главная
           </a>
         </li>
@@ -33,18 +33,12 @@
     <a href="#0">
       <img class="header-logo" src="images/logo-black.svg" alt="header-logo" />
     </a>
-    <address class="header-contacts">
-      <ul class="header-contacts-list">
-        <li class="header-contacts-list-item">
-          <a class="header-contacts-list-item-link" href="tel:+99995555555">+9 999 555 5555</a>
-        </li>
-        <li class="header-contacts-list-item">
-          <a class="header-contacts-list-item-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </li>
-        <li class="header-contacts-list-item">
+    <address class="contacts-list">     
+          <a class="contacts-list-item-link" href="tel:+99995555555">+9 999 555 5555</a>    
+          <a class="contacts-list-item-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>      
+          <p class="contacts-list-item">
           наб. Принсенграхт 263-265,<br>Амстердам
-        </li>
-      </ul>
+        </p>
     </address>
   </header>
   <main class="main">
@@ -63,9 +57,9 @@
         <p class="cover-undertitle-slogan">
           Аукцион вещей, в которые никто не верил
         </p>
-        <a class="cover-undertitle-button" href="#0">
-          <div class="cover-undertitle-button-text">Сделать ставку</div>
-        </a>
+        <button class="cover-undertitle-button" href="#0">
+          <a class="cover-undertitle-button-text">Сделать ставку</a>
+        </button>
 
       </div>
     </section>
@@ -74,13 +68,11 @@
       <ul class="lots-cards-list">
         <li class="lots-cards-list-item">
           <a class="lots-cards-list-item-link" href="#0">
-            <article class="lots-cards-card">
-              <img class="lots-cards-card-photo" src="./images/card-lot-01.jpg"
-                alt="card image description goes here" />
-              <div class="lots-cards-card-overlay"></div>
-              <p class="lots-cards-card-title">
+            <article class="lots-cards-card lots-cards-card-photo-first">
+              <div class="card-overlay"></div>
+              <h3 class="lots-cards-card-title">
                 Фильм режиссёра, который бросил киношколу
-              </p>
+              </h3>
               <p class="lots-cards-card-info">
                 Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                 ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -92,12 +84,11 @@
 
         <li class="lots-cards-list-item">
           <a class="lots-cards-list-item-link" href="#0">
-            <article class="lots-cards-card">
-              <img class="lots-cards-card-photo" src="./images/card-lot-02.jpg" alt="card description goes here" />
-              <div class="lots-cards-card-overlay"></div>
-              <p class="lots-cards-card-title">
+            <article class="lots-cards-card lots-cards-card-photo-second">
+              <div class="card-overlay "></div>
+              <h3 class="lots-cards-card-title">
                 Книга, где описан один скучный день из жизни рекламного агента
-              </p>
+              </h3>
               <p class="lots-cards-card-info">
                 Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                 с переходами на древнеанглийский. В ней одновременно
@@ -112,12 +103,11 @@
 
         <li class="lots-cards-list-item">
           <a class="lots-cards-list-item-link" href="#0">
-            <article class="lots-cards-card">
-              <img class="lots-cards-card-photo" src="./images/card-lot-03.jpg" alt="image description goes here" />
-              <div class="lots-cards-card-overlay"></div>
-              <p class="lots-cards-card-title">
+            <article class="lots-cards-card lots-cards-card-photo-third">
+               <div class="card-overlay"></div>
+              <h3 class="lots-cards-card-title">
                 Картина, которую повторит даже 5-летний сын маминой подруги
-              </p>
+              </h3>
               <p class="lots-cards-card-info">
                 Ну действительно, там линия, тут кружочек, а здесь и вовсе
                 что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -127,22 +117,20 @@
             </article>
           </a>
         </li>
-      </ul>
-      <div class="lots-more">
-        <a class="lots-more-link" href="#0">посмотреть больше</a>
-      </div>
+      </ul>     
+        <a class="lots-more" href="#0">посмотреть больше</a>      
     </section>
 
     <section class="about">
-      <div class="about-logo">
-        <div class="about-logo-container">
+      <div class="about-logo-container">
+        
           <a class="about-logo-image" href="#0">
             <img src="images/logo-white.svg" alt="header-logo" />
           </a>
-        </div>
+        
       </div>
       <div class="about-info">
-        <p class="about-info-title">Об аукционе</p>
+        <h3 class="about-info-title">Об аукционе</h3>
         <div class="about-info-text">
           <p class="about-info-text-paragraph">
             Здесь вы не встретите очередное пафосное собрание невероятно
@@ -165,44 +153,35 @@
     </section>
   </main>
   <footer class="footer">
-    <address class="footer-contacts">
-      <ul class="footer-contacts-list">
-        <li class="footer-list-item">
-          <a class="footer-list-item-link" href="tel:+99995555555">+9 999 555 5555</a>
-        </li>
-        <li class="footer-list-item">
-          <a class="footer-list-item-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </li>
-        <li class="footer-list-item">
-          наб. Принсенграхт 263-265,<br />
-          Амстердам
-        </li>
-      </ul>
+    <address class="contacts-list">  
+          <a class="contacts-list-item-link" href="tel:+99995555555">+9 999 555 5555</a>            
+          <a class="contacts-list-item-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>  
+          <p class="contacts-list-item-link">наб. Принсенграхт 263-265, <br>Амстердам </p>     
     </address>
 
     <nav class="footer-menu">
       <ul class="footer-menu-list">
-        <li class="footer-menu-list-item-selected">
-          <a class="footer-menu-list-item-link-selected" href="#0">главная</a>
+        <li class="footer-menu-list-item-selected ">
+          <a class=" footer-menu-list-item-link-selected" href="#0">главная</a>
+        </li >
+        <li class="footer-menu-list-item">
+          <a class="footer-menu-list-item-link href="#0">посмотреть лоты</a>
         </li>
         <li class="footer-menu-list-item">
-          <a class="footer-menu-list-item-link" href="#0">посмотреть лоты</a>
-        </li>
-        <li class="footer-menu-list-item">
-          <a class="footer-menu-list-item-link" href="#0">об аукционе</a>
+          <a class="footer-menu-list-item-link href="#0">об аукционе</a>
         </li>
       </ul>
     </nav>
 
     <nav class="footer-socials">
       <a class="footer-socials-link footer-socials-link-yt" href="#0">
-        <img src="images/yt.svg" alt="youtube logo">
+       
       </a>
       <a class="footer-socials-link footer-socials-link-vk" href="#0">
-        <img src="images/vk.svg" alt="vk logo">
+       
       </a>
       <a class="footer-socials-link footer-socials-link-pinterest">
-        <img src="images/pinterest.svg" alt="pinterest logo">
+      
       </a>
     </nav>
   </footer>
