@@ -513,26 +513,21 @@ footer {
 
 .footer-menu-list-item {
     color: #000;
-    font-family: 'Raleway', Arial, sans-serif;
+    font-family:  'Raleway', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    text-underline-offset: 3px;
     text-underline-offset: 4px;
     /* 135% */
 }
 
-.footer-menu-list-item-selected {
-    text-decoration: none;
+.footer-menu-list-item-link {
+    text-decoration: underline;
 }
 
 .footer-menu-list-item-link-selected {
     text-decoration: none;
-}
-
-.footer-menu-list-item-link {
-    text-decoration: underline;
 }
 
 .footer-socials {
