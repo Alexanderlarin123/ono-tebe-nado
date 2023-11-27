@@ -368,12 +368,11 @@ body {
     flex-direction: row;
     justify-content: start;
     align-items: start;
-    width: 1340px;
     flex-shrink: 0;
     margin-top: 181px;
     background-color: white;
     gap: 25px;
-    margin-left: 190px;
+    margin-left: 95px;
 
 }
 
